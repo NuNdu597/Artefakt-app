@@ -2,7 +2,7 @@
    - Pages: network first (you always get the newest version when online), cached copy when offline.
    - Fonts and icons: cached after first use.
    - Google sign-in, Drive and exchange-rate requests are never touched. */
-const VERSION = 'artefakt-v1.14';
+const VERSION = 'artefakt-v1.15';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
